@@ -1,0 +1,29 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "lodash": "^4.17.23",
+    "vue": "^3.5.27",
+    "vue3-toastify": "^0.2.8"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.23",
+    "css-loader": "^6.8.1",
+    "dotenv-webpack": "^8.0.1",
+    "html-webpack-plugin": "^5.5.1",
+    "sass": "^1.97.3",
+    "sass-loader": "^16.0.6",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.2.2",
+    "vue-loader": "^17.3.0",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
